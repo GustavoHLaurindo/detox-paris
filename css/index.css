@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url(reset.css);
+@import url(apresentacao.css);
+@import url(funcionamento.css);
+body{
+    font-family: "poppins", Arial, sans-serif;
+    
+}
+:root{
+    --cor-principal: #318efd;
+    --degrade: #4296fd,#2082fa,#0765da;
+    --atencao: #0e7afd;
+    --cor-botao: #FFB30D;
+    --cor-fonte: white;
+    --cor-subtitulo: #326DB4;
+}
