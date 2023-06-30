@@ -2,6 +2,9 @@
 @import url(reset.css);
 @import url(apresentacao.css);
 @import url(funcionamento.css);
+@import url(beneficios.css);
+@import url(frete.css);
+@import url(mais-vendido.css);
 body{
     font-family: "poppins", Arial, sans-serif;
     
@@ -10,7 +13,10 @@ body{
     --cor-principal: #318efd;
     --degrade: #4296fd,#2082fa,#0765da;
     --atencao: #074da3;
-    --cor-botao: #FFB30D;
+    --cor-botao: #09C61C;
     --cor-fonte: white;
     --cor-subtitulo: #326DB4;
+    --tamanho-titulo-principal: 1.8em;
+    --tamanho-titulo: 1.7em;
+    --peso-titulo: 700;
 }

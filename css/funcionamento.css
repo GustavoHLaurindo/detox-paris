@@ -12,11 +12,11 @@ img.imagem-emagrecimento{
 h2.como-funciona-titulo{
     font-size: 1.8em;
     text-align: center;
-    font-weight: 700;
+    font-weight: var(--peso-titulo);
     color: var(--cor-subtitulo);
 }
 p.paragrafo-sobre{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 500;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -26,31 +26,3 @@ p.paragrafo-sobre{
     margin: 10px;
 }
 
-svg#wavecomofunciona{
-    fill: #ffffff;
-    background-color: #ebebeb;
-    width: 100%;
-}
-.elementor-shape-fill{
-    fill: white;
-}
-.car-truck{
-    fill: #fff;
-}
-.frete-container{
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    gap: 20px;
-    color: white;
-}
-.container{
-    padding: 15px;
-}
-.titulo-beneficio{
-    text-align: center;
-    width:100%;
-    
-}

@@ -1,0 +1,12 @@
+.car-truck{
+    fill: #fff;
+}
+.frete-container{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    color: white;
+}

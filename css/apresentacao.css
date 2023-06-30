@@ -63,7 +63,7 @@ i.check{
     align-items: center;
     margin-bottom: 30px;
 }
-.imagem__container .imagem-remedio{
+.imagem-remedio{
     width: 50%;
 }
 .elementor-shape-fill{
@@ -81,9 +81,9 @@ i.check{
     background-color: var(--cor-botao);
     color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     font-size: 1.5em;
-    box-shadow: 0px 0px 15px 0px #636363;
+    box-shadow: 0px 0px 15px 0px #6363635b;
     font-weight: 700;
 }
 .seguro__container{

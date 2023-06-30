@@ -1,0 +1,25 @@
+.mais-vendido{
+    padding: 70px 15px;
+}
+.container-mais-vendido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-mais-vendido{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.3em;
+    font-weight: var(--peso-titulo);
+    color: var(--cor-subtitulo);
+}
+.texto-mais-vendido{
+    text-align: center;
+    font-size: 1.05em;
+    margin-top: 15px;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
