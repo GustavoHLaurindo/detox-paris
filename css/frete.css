@@ -5,12 +5,12 @@
     background-color: #333;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
-    gap: 10px;
+    gap: 20px;
     color: white;
 }
 h2.texto-frete{
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
 }

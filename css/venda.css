@@ -1,0 +1,77 @@
+section.venda{
+    padding: 30px 15px;
+}
+.venda-titulo{
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 1.3em;
+    font-weight: var(--peso-titulo);
+    color: var(--cor-principal);
+    margin: 20px 0px 30px 0px;
+}
+.container-potes-venda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.box-venda{
+    background-color: transparent;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 400px;
+    border: 2px solid var(--cor-principal);
+    box-shadow: 6px 7px 15px 1px #00000038;
+}
+.container-quantidade{
+    background-color: var(--cor-principal);
+    margin: -16px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+.titulo-quantidade{
+    color: white;
+    font-size: 1.7em;
+    font-weight: 700;
+    
+}
+.imagem-pote-venda{
+    width: 250px;
+}
+.frete-gratis-texto{
+    font-size: 1.4em;
+    color:  var(--cor-principal);
+    font-weight: 700;
+    margin: 15px;
+}
+.precos{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.preco-antigo{
+    text-decoration: line-through;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+.preco-texto-parcela{
+    font-size: 1em;
+    font-weight: 700;
+    color: #5e5a5a;
+}
+.preco-parcelado{
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--cor-principal);
+    margin-bottom: 10px;
+}
+.botao-venda{
+    margin-bottom: -30px;
+}
+.preco-texto-avista{
+    font-weight: 300;
+}

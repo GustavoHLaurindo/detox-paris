@@ -5,6 +5,9 @@
 @import url(beneficios.css);
 @import url(frete.css);
 @import url(mais-vendido.css);
+@import url(resultados.css);
+@import url(venda.css);
+@import url(nuvem.css);
 body{
     font-family: "poppins", Arial, sans-serif;
     

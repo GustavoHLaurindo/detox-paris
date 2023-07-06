@@ -22,7 +22,6 @@ svg.onda-azul{
 .benefios-container{
     display: grid;
     margin: auto;
-    align-items: center;
     justify-content: center;
     width: 100%;
     gap: 20px;
