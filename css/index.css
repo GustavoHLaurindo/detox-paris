@@ -8,6 +8,8 @@
 @import url(resultados.css);
 @import url(venda.css);
 @import url(nuvem.css);
+@import url(registro.css);
+@import url(faq.css);
 body{
     font-family: "poppins", Arial, sans-serif;
     
@@ -19,6 +21,7 @@ body{
     --cor-botao: #09C61C;
     --cor-fonte: white;
     --cor-subtitulo: #326DB4;
+    --tamanho-paragrafo: 1.1em;
     --tamanho-titulo-principal: 1.8em;
     --tamanho-titulo: 1.7em;
     --peso-titulo: 700;

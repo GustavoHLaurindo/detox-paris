@@ -1,0 +1,26 @@
+.registrado-conteiner{
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem-registro{
+    width: 300px;
+
+}
+h2.titulo-registro{
+    font-size: var(--tamanho-titulo);
+    font-weight: 700;
+    color: var(--cor-subtitulo);
+    margin-top: 15px;
+    line-height: 1.3em;
+    text-align: center;
+}
+p.paragrafo-registro{
+    margin: 20px 0px;
+    font-size: var(--tamanho-paragrafo);
+    line-height: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
