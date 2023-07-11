@@ -55,7 +55,8 @@ section.venda{
 }
 .preco-antigo{
     text-decoration: line-through;
-    font-weight: 300;
+    font-weight: 500;
+    color: #5e5a5a;
     font-size: 1.1em;
 }
 .preco-texto-parcela{
@@ -74,4 +75,9 @@ section.venda{
 }
 .preco-texto-avista{
     font-weight: 300;
+}
+.cotainer-frete-gratis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

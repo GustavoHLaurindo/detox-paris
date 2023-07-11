@@ -11,7 +11,7 @@
     object-fit: cover;
 }
 .atencao p.aviso{
-    max-width: 300px;
+    max-width: fit-content;
     text-align: center;
 }
 .formula{
@@ -88,7 +88,86 @@ i.check{
 }
 .seguro__container{
     margin: 15px;
+    display: flex;
+    justify-content: center;
 }
 .compra-segura-imagem{
     width: 100%;
+}
+.quero-perder-peso__container.pc{
+    display: none;
+}
+.perda-peso-subtitulo.pc{
+    display: none;
+}
+@media screen and (min-width:992px){
+    .imagem-atencao{
+        width: 40px;
+    }
+    .atencao{
+        gap: 20px;
+        padding: 7px;
+    }
+    .titulo-principal{
+        font-size: 3.5em;
+    }
+    .titulos-container{
+        margin-bottom: 10px;
+    }
+    .atencao p.aviso{
+        text-align: left;
+        width: 100%;
+    }
+    .container-apresentacao{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    section.formula__container{
+        padding: 10px 80px;
+    }
+    span.destaque{
+        color: transparent;
+        -webkit-text-stroke: 0.8px #ffffff;
+    }
+    .lista li{
+        font-size: 1.2em;
+    }
+    .imagem__container{
+        display: block;
+        margin: 0px;
+        
+    }
+    .imagem-remedio{
+        width: 300px;
+    }
+    .quero-perder-peso__container.phone{
+        display: none;
+    }
+    .quero-perder-peso__container.pc{
+        display: flex;
+    }
+    .botao-compra.pc{
+        width: 80%;
+    }
+    .perda-peso-subtitulo.pc{
+        display: block;
+        width: 530px;
+        font-size: 1.9em;
+        line-height: 1.3em;
+        font-weight: 700;
+    }
+    .formula{
+        justify-content: start;
+    }
+    i.check{
+        margin-right: 25px;
+    }
+    
+}
+@media screen and (min-width:1400px){
+    .container-apresentacao{
+        justify-content: space-around;
+    }
 }

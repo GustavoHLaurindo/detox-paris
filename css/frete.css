@@ -1,5 +1,6 @@
 .car-truck{
     fill: #fff;
+    
 }
 .frete-container{
     background-color: #333;
@@ -13,4 +14,16 @@
 h2.texto-frete{
     font-size: 0.8em;
     text-align: center;
+}
+.car-truck-black{
+    fill: #333;
+}
+@media screen and (min-width: 992px){
+    h2.texto-frete{
+        font-size: 1.1em;
+    }
+    .car-truck{
+        width: 50px;
+    }
+    
 }

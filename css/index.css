@@ -10,8 +10,17 @@
 @import url(nuvem.css);
 @import url(registro.css);
 @import url(faq.css);
+
+html {
+    scroll-behavior: smooth;
+}
+  
+:target {
+    scroll-margin-top: .8em;
+}
 body{
     font-family: "poppins", Arial, sans-serif;
+    overflow-x: hidden;
     
 }
 :root{
