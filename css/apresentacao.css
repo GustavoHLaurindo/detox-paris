@@ -112,7 +112,7 @@ i.check{
         font-size: 3.5em;
     }
     .titulos-container{
-        margin-bottom: 10px;
+        margin-bottom: 55px;
     }
     .atencao p.aviso{
         text-align: left;
@@ -121,7 +121,7 @@ i.check{
     .container-apresentacao{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        
         
     }
     section.formula__container{
