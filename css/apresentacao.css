@@ -20,7 +20,14 @@
     align-items: center;
 }
 section.formula__container{
-    background-image: linear-gradient(78deg, var(--degrade));
+    background-image: linear-gradient(
+                to right bottom,
+                #4296fd93,#2082fad0,#0766da98
+            ),
+            url("../imagens/background-emagrecimento.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
     padding: 20px;
     color: var(--cor-fonte);
 }
