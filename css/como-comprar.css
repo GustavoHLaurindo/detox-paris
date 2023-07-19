@@ -20,6 +20,7 @@ span.como-comprar-destaque{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 @media screen and (min-width:992px){

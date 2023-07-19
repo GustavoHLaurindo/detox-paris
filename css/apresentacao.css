@@ -88,6 +88,7 @@ i.check{
     background-color: var(--cor-botao);
     color: white;
     border: none;
+    cursor: pointer;
     border-radius: 20px;
     font-size: 1.5em;
     box-shadow: inset 0px -3px 0px 0px #6363635b;
@@ -156,7 +157,7 @@ i.check{
         display: flex;
     }
     .botao-compra.pc{
-        width: 80%;
+        width: 100%;
     }
     .perda-peso-subtitulo.pc{
         display: block;
@@ -171,10 +172,23 @@ i.check{
     i.check{
         margin-right: 25px;
     }
-    
+    .link-venda-apresentacao{
+        width: 100%;
+        padding: 0.9em;
+    }
+    .container-botao{
+        width: 80%;
+    }
 }
 @media screen and (min-width:1400px){
     .container-apresentacao{
         justify-content: space-around;
+    }
+    .link-venda-apresentacao{
+        width: 100%;
+        padding: 0.9em;
+    }
+    .container-botao{
+        width: 80%;
     }
 }
