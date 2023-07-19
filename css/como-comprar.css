@@ -1,0 +1,38 @@
+section.como-comprar{
+    padding: 50px 10px;
+}
+.como-comprar-titulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: var(--tamanho-titulo);
+}
+h2.como-comprar-titulo{
+    color: rgb(39, 39, 39);
+    line-height: 1.3em;
+}
+span.como-comprar-destaque{
+    color: var(--cor-principal);
+}
+
+.imagens-como-comprar{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+@media screen and (min-width:992px){
+    h2.como-comprar-titulo{
+        font-size: 2.3em;
+    }
+    section.como-comprar{
+        padding: 40px 30px;
+    }
+    .imagens-como-comprar{
+        flex-direction: row;
+    }
+    .imagem-como-comprar{
+        width: 550px;
+    }
+}

@@ -10,6 +10,7 @@
 @import url(nuvem.css);
 @import url(registro.css);
 @import url(faq.css);
+@import url(como-comprar.css);
 
 html {
     scroll-behavior: smooth;
@@ -34,6 +35,6 @@ body{
     --cor-subtitulo: #326DB4;
     --tamanho-paragrafo: 1.1em;
     --tamanho-titulo-principal: 1.8em;
-    --tamanho-titulo: 1.7em;
+    --tamanho-titulo: 1.7rem;
     --peso-titulo: 700;
 }

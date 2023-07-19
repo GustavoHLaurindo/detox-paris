@@ -40,7 +40,7 @@ section.venda{
     
 }
 img.imagem-pote-venda{
-    width: 250px;
+    width: 188px;
 }
 .frete-gratis-texto{
     font-size: 1.4em;
@@ -85,5 +85,8 @@ img.imagem-pote-venda{
 @media screen and (min-width:992px){
     .container-potes-venda{
         flex-direction: row;
+    }
+    img.imagem-pote-venda{
+        width: 260px;
     }
 }
