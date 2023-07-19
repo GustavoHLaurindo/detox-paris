@@ -23,10 +23,12 @@ body{
     overflow-x: hidden;
     
 }
+
 :root{
     --cor-principal: #318efd;
     --degrade: #4296fd,#2082fa,#0765da;
-    --atencao: #074da3;
+    --atencao: #f32f0c;
+    --cor-secao-branco: #f9f9f9;
     --cor-botao: #09C61C;
     --cor-fonte: white;
     --cor-subtitulo: #326DB4;

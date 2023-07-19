@@ -15,11 +15,33 @@
     font-weight: var(--peso-titulo);
     color: var(--cor-subtitulo);
 }
-.texto-mais-vendido{
+.paragrafo-mais-vendido{
     text-align: center;
     font-size: 1.05em;
     margin-top: 15px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.2em;
     margin-bottom: 20px;
+}
+@media screen and (min-width:992px){
+    .container-mais-vendido{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .paragrafo-mais-vendido{
+        width: 650px;
+        line-height: 1.6em;
+        font-size: 1.2em;
+    }
+    .texto-mais-vendido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .compra-mais-vendido{
+        margin-top: 20px;
+        padding: 0.7em;
+        width: 70%;
+        font-size: 1.6em;
+    }
 }

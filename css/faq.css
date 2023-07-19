@@ -38,8 +38,8 @@ section.faq{
     border-radius: 10px;
     font-weight: 500;
     line-height: 1.4em;
-    background-color: #176fdbe1;
-    color: rgb(255, 255, 255);
+    border: 2px solid var(--cor-principal);
+    color: rgb(32, 32, 32);
 }
 .detalhes[open] summary::before{
     content: "-";
@@ -83,4 +83,33 @@ summary::before{
 }
 .coluna-1{
     margin: 10px 0px;
+}
+@media screen and (min-width:992px){
+    section.faq{
+        height:  fit-content;
+    }
+    .container-detalhes{
+        flex-direction: row;
+        align-items: unset;
+        gap: 20px;
+        margin-top: 5em;
+        
+    }
+    .titulo-faq{
+        font-size: 2.5em;
+    }
+    .coluna-1 {
+        margin: 0px;
+
+    }
+    .coluna-1, .coluna-2{
+        flex-basis: 40%;
+        
+    }
+    .titulo-sumario{
+        width: 100%;
+    }
+    .detalhes{
+        max-width: 100%;
+    }
 }

@@ -2,7 +2,7 @@ section.venda{
     padding: 30px 15px;
 }
 .venda-titulo{
-    font-size: 1.8em;
+    font-size: 2.4em;
     text-align: center;
     line-height: 1.3em;
     font-weight: var(--peso-titulo);
@@ -14,7 +14,8 @@ section.venda{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 24px;
+    flex-wrap: wrap;
     
 }
 .box-venda{
@@ -38,7 +39,7 @@ section.venda{
     font-weight: 700;
     
 }
-.imagem-pote-venda{
+img.imagem-pote-venda{
     width: 250px;
 }
 .frete-gratis-texto{
@@ -80,4 +81,9 @@ section.venda{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (min-width:992px){
+    .container-potes-venda{
+        flex-direction: row;
+    }
 }

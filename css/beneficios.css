@@ -67,3 +67,34 @@ svg.onda-azul{
     font-size: 1em;
     color: rgb(65, 62, 62);;
 }
+@media screen and (min-width:992px){
+    section.beneficios{
+        min-height: 410px;
+    }
+    .titulo-beneficio{
+        font-size: 2.5em;
+    }
+    .container-beneficios{
+        margin-top: -20px;
+    }
+    .box-descricao{
+        padding: 30px 15px;
+    }
+    .paragrafo-beneficios__box{
+        font-size: 1.1em;
+        line-height: 1.05em;
+        
+    }
+    .compra-beneficios{
+        width: 70%;
+        padding: 0.9em;
+        font-size: 1.6em;
+    }
+    .benefios-container{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 280px));
+        margin-top: 60px;
+    }
+    .icone-beneficio{
+        font-size: 2.8em;
+    }
+}
