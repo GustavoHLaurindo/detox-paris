@@ -138,6 +138,7 @@ i.check{
     span.destaque{
         color: transparent;
         -webkit-text-stroke: 0.8px #ffffff;
+        letter-spacing: 0.5px;
     }
     .lista li{
         font-size: 1.2em;
