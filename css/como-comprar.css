@@ -9,6 +9,7 @@ section.como-comprar{
 h2.como-comprar-titulo{
     color: rgb(39, 39, 39);
     line-height: 1.3em;
+    font-size: 1.5em;
 }
 span.como-comprar-destaque{
     color: var(--cor-principal);
