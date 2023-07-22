@@ -1,0 +1,68 @@
+footer{
+    background-color:#1A1A1A;
+    padding: 20px 50px;
+    color: white;
+    line-height: 1.6em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container-rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sac{
+    align-items: center;
+}
+.paragrafo-distribuicao{
+    text-align: center;
+}
+.titulo-formas-de-pagamento,.titulo-links {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.links-item{
+    font-size: 0.9em;
+}
+.rastreie-container{
+    align-items: center;
+    
+}
+.rastrear-link{
+    color: white;
+    text-decoration: none;
+    background-image: radial-gradient(at center right,#fac823 0%,#ff9900 100%);
+    padding: 10px 20px;
+    display: block;
+    border-radius: 15px;
+    border: 3px solid white;
+    box-shadow: 0px 3px 0px 0px white;
+    margin-top: 30px;
+    outline: none;
+    transition: all 0.1s ease;
+    font-weight: 700;
+}
+.rastrear-link:hover{
+    background-image: none;
+    background-color: white;
+    color: #fac823;
+    box-shadow: none;
+    border: 3px solid #fac823;
+}
+i.lupa{
+    margin-right: 10px;
+}
+
+@media screen and (min-width:260px) and (max-width:720px){
+    .container-rodape{
+        gap: 20px;
+    }
+    .links{
+        align-items: center;
+    }
+}

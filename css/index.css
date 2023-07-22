@@ -11,7 +11,7 @@
 @import url(registro.css);
 @import url(faq.css);
 @import url(como-comprar.css);
-
+@import url(footer.css);
 html {
     scroll-behavior: smooth;
 }

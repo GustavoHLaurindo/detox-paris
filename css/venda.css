@@ -9,6 +9,9 @@ section.venda{
     color: var(--cor-principal);
     margin: 20px 0px 30px 0px;
 }
+.destaque-venda{
+    color: rgb(48, 46, 46);
+}
 .container-potes-venda{
     display: flex;
     flex-direction: column;
