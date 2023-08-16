@@ -22,6 +22,10 @@
     height: 56px;
     background-color: #02b946;
 }
+.svg-whats{
+    width: 25px;
+    height: 25px;
+}
 .imagem-atencao{
     margin-right: 10px;
     object-fit: cover;
@@ -128,6 +132,12 @@ i.check{
     .imagem-atencao{
         width: 40px;
     }
+    .container-link-whats{
+        width: 63px;
+        height: 63px;
+        margin: 0px 30px 30px 0px;
+    }
+
     .atencao{
         gap: 20px;
         padding: 7px;
