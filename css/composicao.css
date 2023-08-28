@@ -62,9 +62,7 @@ section.composicao{
     .paragrafo-box-composicao{
         font-size: 1.1em;
     }
-    .box-composicao{
-        
-    }
+    
     .box-composicao:hover{
         transform: scale(1.05);
     }
