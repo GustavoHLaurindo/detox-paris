@@ -18,6 +18,9 @@ section.resultados{
     border-radius: 15px;
     border: 3px solid white;
 }
+.image-resultado-detox{
+    width: 100%;
+}
 .swiper-pagination-bullet-active {
     background-color: rgb(247, 247, 247); /* Defina a cor desejada */
 }
@@ -37,10 +40,17 @@ section.resultados{
     .resultados-titulo{
         font-size: 2.5em;
     }
+    .swiper-slide{
+        max-height: 80%;
+    }
     .swiper{
         width: 74%;
     }
     section.resultados{
         padding: 25px;
+    }
+    .image-resultado-detox{
+        height:80%;
+        
     }
 }
