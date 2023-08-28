@@ -44,6 +44,9 @@
         width: 100%;
         font-size: 1.6em;
     }
+    .imagem-garantia{
+        width: 350px;
+    }
     .link-venda{
         width: 70%;
         display: block;
